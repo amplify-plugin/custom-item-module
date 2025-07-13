@@ -1,0 +1,1780 @@
+{
+    "products": [
+        {
+          "key": "21",
+          "product": "54-017",
+          "length": "21",
+          "volts": "115",
+          "watts": "45",
+          "dia": "1/4"
+        },
+        {
+          "key": "21",
+          "product": "54-002",
+          "length": "21",
+          "volts": "115",
+          "watts": "225",
+          "dia": "1/4"
+        },
+        {
+          "key": "25",
+          "product": "54-002",
+          "length": "25",
+          "volts": "115",
+          "watts": "40",
+          "dia": "1/4"
+        },
+        {
+          "key": "29",
+          "product": "54-002",
+          "length": "29-1/8",
+          "volts": "240",
+          "watts": "600",
+          "dia": "5/16"
+        },
+        {
+          "key": "29",
+          "product": "54-002",
+          "length": "29-1/8",
+          "volts": "115",
+          "watts": "600",
+          "dia": "5/16"
+        },
+        {
+          "key": "32",
+          "product": "54-002",
+          "length": "32",
+          "volts": "115",
+          "watts": "20",
+          "dia": "1/4"
+        },
+        {
+          "key": "33",
+          "product": "54-002",
+          "length": "33",
+          "volts": "115",
+          "watts": "200",
+          "dia": "1/4"
+        },
+        {
+          "key": "34",
+          "product": "54-002",
+          "length": "34",
+          "volts": "230",
+          "watts": "340",
+          "dia": "1/4"
+        },
+        {
+          "key": "34",
+          "product": "54-002",
+          "length": "34",
+          "volts": "115",
+          "watts": "85",
+          "dia": "1/4"
+        },
+        {
+          "key": "34",
+          "product": "54-002",
+          "length": "34",
+          "volts": "240",
+          "watts": "750",
+          "dia": "5/16"
+        },
+        {
+          "key": "34",
+          "product": "54-002",
+          "length": "34",
+          "volts": "115",
+          "watts": "750",
+          "dia": "5/16"
+        },
+        {
+          "key": "40",
+          "product": "54-002",
+          "length": "40",
+          "volts": "115",
+          "watts": "65",
+          "dia": "1/4"
+        },
+        {
+          "key": "41",
+          "product": "54-002",
+          "length": "41",
+          "volts": "115",
+          "watts": "200",
+          "dia": "1/4"
+        },
+        {
+          "key": "42",
+          "product": "54-002",
+          "length": "42",
+          "volts": "230",
+          "watts": "300",
+          "dia": "1/4"
+        },
+        {
+          "key": "42",
+          "product": "54-002",
+          "length": "42",
+          "volts": "115",
+          "watts": "570",
+          "dia": "1/4"
+        },
+        {
+          "key": "42",
+          "product": "54-002",
+          "length": "42-1/2",
+          "volts": "115",
+          "watts": "300",
+          "dia": "1/4"
+        },
+        {
+          "key": "42",
+          "product": "54-002",
+          "length": "42-5/8",
+          "volts": "240",
+          "watts": "1000",
+          "dia": "5/16"
+        },
+        {
+          "key": "42",
+          "product": "54-002",
+          "length": "42-5/8",
+          "volts": "115",
+          "watts": "1000",
+          "dia": "5/16"
+        },
+        {
+          "key": "44",
+          "product": "54-002",
+          "length": "44-1/2",
+          "volts": "230",
+          "watts": "400",
+          "dia": "1/4"
+        },
+        {
+          "key": "45",
+          "product": "54-002",
+          "length": "45",
+          "volts": "115",
+          "watts": "300",
+          "dia": "1/4"
+        },
+        {
+          "key": "49",
+          "product": "54-002",
+          "length": "49",
+          "volts": "115",
+          "watts": "100",
+          "dia": "1/4"
+        },
+        {
+          "key": "51",
+          "product": "54-002",
+          "length": "51-1/4",
+          "volts": "230",
+          "watts": "780",
+          "dia": "5/16"
+        },
+        {
+          "key": "51",
+          "product": "54-002",
+          "length": "51-1/8",
+          "volts": "240",
+          "watts": "1250",
+          "dia": "5/16"
+        },
+        {
+          "key": "51",
+          "product": "54-002",
+          "length": "51-1/8",
+          "volts": "115",
+          "watts": "1250",
+          "dia": "5/16"
+        },
+        {
+          "key": "52",
+          "product": "54-002",
+          "length": "52-3/4",
+          "volts": "115",
+          "watts": "180",
+          "dia": "1/4"
+        },
+        {
+          "key": "52",
+          "product": "54-002",
+          "length": "52-3/4",
+          "volts": "230",
+          "watts": "180",
+          "dia": "1/4"
+        },
+        {
+          "key": "54",
+          "product": "54-002",
+          "length": "54",
+          "volts": "115",
+          "watts": "85",
+          "dia": "1/4"
+        },
+        {
+          "key": "54",
+          "product": "54-002",
+          "length": "54",
+          "volts": "115",
+          "watts": "400",
+          "dia": "1/4"
+        },
+        {
+          "key": "54",
+          "product": "54-002",
+          "length": "54-1/2",
+          "volts": "115",
+          "watts": "500",
+          "dia": "1/4"
+        },
+        {
+          "key": "54",
+          "product": "54-002",
+          "length": "54-1/2",
+          "volts": "230",
+          "watts": "500",
+          "dia": "1/4"
+        },
+        {
+          "key": "54",
+          "product": "54-002",
+          "length": "54-1/2",
+          "volts": "115",
+          "watts": "120",
+          "dia": "1/4"
+        },
+        {
+          "key": "55",
+          "product": "54-002",
+          "length": "55",
+          "volts": "230",
+          "watts": "340",
+          "dia": "1/4"
+        },
+        {
+          "key": "56",
+          "product": "54-002",
+          "length": "56-1/2",
+          "volts": "230",
+          "watts": "400",
+          "dia": "1/4"
+        },
+        {
+          "key": "59",
+          "product": "54-002",
+          "length": "59",
+          "volts": "115",
+          "watts": "200",
+          "dia": "1/4"
+        },
+        {
+          "key": "59",
+          "product": "54-002",
+          "length": "59",
+          "volts": "230",
+          "watts": "700",
+          "dia": "5/16"
+        },
+        {
+          "key": "59",
+          "product": "54-002",
+          "length": "59-5/8",
+          "volts": "230",
+          "watts": "1500",
+          "dia": "5/16"
+        },
+        {
+          "key": "59",
+          "product": "54-002",
+          "length": "59-5/8",
+          "volts": "115",
+          "watts": "1500",
+          "dia": "5/16"
+        },
+        {
+          "key": "61",
+          "product": "54-002",
+          "length": "61",
+          "volts": "230",
+          "watts": "660",
+          "dia": "1/4"
+        },
+        {
+          "key": "61",
+          "product": "54-002",
+          "length": "61-1/2",
+          "volts": "230",
+          "watts": "175",
+          "dia": "1/4"
+        },
+        {
+          "key": "62",
+          "product": "54-002",
+          "length": "62",
+          "volts": "230",
+          "watts": "370",
+          "dia": "1/4"
+        },
+        {
+          "key": "65",
+          "product": "54-002",
+          "length": "65",
+          "volts": "115",
+          "watts": "160",
+          "dia": "1/4"
+        },
+        {
+          "key": "65",
+          "product": "54-002",
+          "length": "65",
+          "volts": "230",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "65",
+          "product": "54-002",
+          "length": "65",
+          "volts": "230",
+          "watts": "800",
+          "dia": "1/4"
+        },
+        {
+          "key": "66",
+          "product": "54-002",
+          "length": "66",
+          "volts": "115",
+          "watts": "140",
+          "dia": "1/4"
+        },
+        {
+          "key": "68",
+          "product": "54-002",
+          "length": "68",
+          "volts": "115",
+          "watts": "450",
+          "dia": "1/4"
+        },
+        {
+          "key": "68",
+          "product": "54-002",
+          "length": "68",
+          "volts": "230",
+          "watts": "250",
+          "dia": "1/4"
+        },
+        {
+          "key": "69",
+          "product": "54-002",
+          "length": "69",
+          "volts": "115",
+          "watts": "1000",
+          "dia": "1/4"
+        },
+        {
+          "key": "70",
+          "product": "54-002",
+          "length": "70-1/2",
+          "volts": "115",
+          "watts": "475",
+          "dia": "1/4"
+        },
+        {
+          "key": "74",
+          "product": "54-002",
+          "length": "74",
+          "volts": "230",
+          "watts": "475",
+          "dia": "1/4"
+        },
+        {
+          "key": "74",
+          "product": "54-002",
+          "length": "74-1/2",
+          "volts": "230",
+          "watts": "280",
+          "dia": "1/4"
+        },
+        {
+          "key": "75",
+          "product": "54-002",
+          "length": "75",
+          "volts": "115",
+          "watts": "140",
+          "dia": "1/4"
+        },
+        {
+          "key": "75",
+          "product": "54-002",
+          "length": "75",
+          "volts": "230",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "75",
+          "product": "54-002",
+          "length": "75-3/4",
+          "volts": "115",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "76",
+          "product": "54-002",
+          "length": "76",
+          "volts": "230",
+          "watts": "750",
+          "dia": "1/4"
+        },
+        {
+          "key": "76",
+          "product": "54-002",
+          "length": "76",
+          "volts": "115",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "76",
+          "product": "54-002",
+          "length": "76",
+          "volts": "115",
+          "watts": "475",
+          "dia": "1/4"
+        },
+        {
+          "key": "76",
+          "product": "54-002",
+          "length": "76-1/4",
+          "volts": "115",
+          "watts": "750",
+          "dia": "1/4"
+        },
+        {
+          "key": "76",
+          "product": "54-002",
+          "length": "76-3/4",
+          "volts": "230",
+          "watts": "200",
+          "dia": "1/4"
+        },
+        {
+          "key": "76",
+          "product": "54-002",
+          "length": "76-3/4",
+          "volts": "115",
+          "watts": "200",
+          "dia": "1/4"
+        },
+        {
+          "key": "76",
+          "product": "54-002",
+          "length": "76-5/8",
+          "volts": "230",
+          "watts": "2000",
+          "dia": "5/16"
+        },
+        {
+          "key": "76",
+          "product": "54-002",
+          "length": "76-5/8",
+          "volts": "115",
+          "watts": "2000",
+          "dia": "5/16"
+        },
+        {
+          "key": "77",
+          "product": "54-002",
+          "length": "77",
+          "volts": "115",
+          "watts": "100",
+          "dia": "1/4"
+        },
+        {
+          "key": "77",
+          "product": "54-002",
+          "length": "77",
+          "volts": "230",
+          "watts": "1220",
+          "dia": "5/16"
+        },
+        {
+          "key": "78",
+          "product": "54-002",
+          "length": "78",
+          "volts": "115",
+          "watts": "200",
+          "dia": "1/4"
+        },
+        {
+          "key": "80",
+          "product": "54-002",
+          "length": "80",
+          "volts": "115",
+          "watts": "100",
+          "dia": "1/4"
+        },
+        {
+          "key": "84",
+          "product": "54-002",
+          "length": "84",
+          "volts": "230",
+          "watts": "400",
+          "dia": "1/4"
+        },
+        {
+          "key": "85",
+          "product": "54-002",
+          "length": "85",
+          "volts": "230",
+          "watts": "1200",
+          "dia": "1/4"
+        },
+        {
+          "key": "86",
+          "product": "54-002",
+          "length": "86",
+          "volts": "115",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "86",
+          "product": "54-002",
+          "length": "86",
+          "volts": "230",
+          "watts": "680",
+          "dia": "1/4"
+        },
+        {
+          "key": "87",
+          "product": "54-002",
+          "length": "87",
+          "volts": "230",
+          "watts": "1280",
+          "dia": "1/4"
+        },
+        {
+          "key": "88",
+          "product": "54-002",
+          "length": "88",
+          "volts": "115",
+          "watts": "200",
+          "dia": "1/4"
+        },
+        {
+          "key": "88",
+          "product": "54-002",
+          "length": "88",
+          "volts": "230",
+          "watts": "800",
+          "dia": "1/4"
+        },
+        {
+          "key": "89",
+          "product": "54-002",
+          "length": "89-1/2",
+          "volts": "115",
+          "watts": "310",
+          "dia": "1/4"
+        },
+        {
+          "key": "90",
+          "product": "54-002",
+          "length": "90",
+          "volts": "240",
+          "watts": "1000",
+          "dia": "5/16"
+        },
+        {
+          "key": "91",
+          "product": "54-002",
+          "length": "91",
+          "volts": "230",
+          "watts": "880",
+          "dia": "1/4"
+        },
+        {
+          "key": "91",
+          "product": "54-002",
+          "length": "91",
+          "volts": "230",
+          "watts": "700",
+          "dia": "1/4"
+        },
+        {
+          "key": "91",
+          "product": "54-002",
+          "length": "91",
+          "volts": "115",
+          "watts": "400",
+          "dia": "1/4"
+        },
+        {
+          "key": "91",
+          "product": "54-002",
+          "length": "91",
+          "volts": "230",
+          "watts": "675",
+          "dia": "1/4"
+        },
+        {
+          "key": "91",
+          "product": "54-002",
+          "length": "91",
+          "volts": "115",
+          "watts": "675",
+          "dia": "1/4"
+        },
+        {
+          "key": "92",
+          "product": "54-002",
+          "length": "92-1/2",
+          "volts": "230",
+          "watts": "1550",
+          "dia": "5/16"
+        },
+        {
+          "key": "92",
+          "product": "54-002",
+          "length": "92-3/4",
+          "volts": "230",
+          "watts": "800",
+          "dia": "1/4"
+        },
+        {
+          "key": "92",
+          "product": "54-002",
+          "length": "92-3/4",
+          "volts": "240",
+          "watts": "2500",
+          "dia": "5/16"
+        },
+        {
+          "key": "93",
+          "product": "54-002",
+          "length": "93",
+          "volts": "230",
+          "watts": "2000",
+          "dia": "5/16"
+        },
+        {
+          "key": "95",
+          "product": "54-002",
+          "length": "95",
+          "volts": "230",
+          "watts": "1760",
+          "dia": "5/16"
+        },
+        {
+          "key": "99",
+          "product": "54-002",
+          "length": "99",
+          "volts": "115",
+          "watts": "350",
+          "dia": "1/4"
+        },
+        {
+          "key": "100",
+          "product": "54-002",
+          "length": "100",
+          "volts": "115",
+          "watts": "700",
+          "dia": "1/4"
+        },
+        {
+          "key": "100",
+          "product": "54-002",
+          "length": "100",
+          "volts": "230",
+          "watts": "200",
+          "dia": "1/4"
+        },
+        {
+          "key": "100",
+          "product": "54-002",
+          "length": "100",
+          "volts": "115",
+          "watts": "1000",
+          "dia": "1/4"
+        },
+        {
+          "key": "100",
+          "product": "54-002",
+          "length": "100",
+          "volts": "230",
+          "watts": "1000",
+          "dia": "1/4"
+        },
+        {
+          "key": "101",
+          "product": "54-002",
+          "length": "101",
+          "volts": "115",
+          "watts": "200",
+          "dia": "1/4"
+        },
+        {
+          "key": "103",
+          "product": "54-002",
+          "length": "103",
+          "volts": "230",
+          "watts": "450",
+          "dia": "1/4"
+        },
+        {
+          "key": "103",
+          "product": "54-002",
+          "length": "103",
+          "volts": "230",
+          "watts": "1150",
+          "dia": "5/16"
+        },
+        {
+          "key": "104",
+          "product": "54-002",
+          "length": "104",
+          "volts": "115",
+          "watts": "450",
+          "dia": "1/4"
+        },
+        {
+          "key": "105",
+          "product": "54-002",
+          "length": "105",
+          "volts": "230",
+          "watts": "850",
+          "dia": "1/4"
+        },
+        {
+          "key": "105",
+          "product": "54-002",
+          "length": "105",
+          "volts": "115",
+          "watts": "850",
+          "dia": "1/4"
+        },
+        {
+          "key": "109",
+          "product": "54-002",
+          "length": "109-3/4",
+          "volts": "240",
+          "watts": "3000",
+          "dia": "5/16"
+        },
+        {
+          "key": "109",
+          "product": "54-002",
+          "length": "109-3/8",
+          "volts": "115",
+          "watts": "400",
+          "dia": "1/4"
+        },
+        {
+          "key": "110",
+          "product": "54-002",
+          "length": "110",
+          "volts": "115",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "110",
+          "product": "54-002",
+          "length": "110",
+          "volts": "230",
+          "watts": "1325",
+          "dia": "5/16"
+        },
+        {
+          "key": "111",
+          "product": "54-002",
+          "length": "111",
+          "volts": "115",
+          "watts": "330",
+          "dia": "1/4"
+        },
+        {
+          "key": "112",
+          "product": "54-002",
+          "length": "112-1/4",
+          "volts": "115",
+          "watts": "425",
+          "dia": "1/4"
+        },
+        {
+          "key": "113",
+          "product": "54-002",
+          "length": "113",
+          "volts": "115",
+          "watts": "850",
+          "dia": "1/4"
+        },
+        {
+          "key": "113",
+          "product": "54-002",
+          "length": "113",
+          "volts": "230",
+          "watts": "1970",
+          "dia": "5/16"
+        },
+        {
+          "key": "113",
+          "product": "54-002",
+          "length": "113-1/2",
+          "volts": "230",
+          "watts": "900",
+          "dia": "1/4"
+        },
+        {
+          "key": "115",
+          "product": "54-002",
+          "length": "115-1/2",
+          "volts": "115",
+          "watts": "1200",
+          "dia": "5/16"
+        },
+        {
+          "key": "116",
+          "product": "54-002",
+          "length": "116",
+          "volts": "115",
+          "watts": "325",
+          "dia": "1/4"
+        },
+        {
+          "key": "116",
+          "product": "54-002",
+          "length": "116",
+          "volts": "230",
+          "watts": "1240",
+          "dia": "1/4"
+        },
+        {
+          "key": "116",
+          "product": "54-002",
+          "length": "116",
+          "volts": "230",
+          "watts": "1585",
+          "dia": "5/16"
+        },
+        {
+          "key": "118",
+          "product": "54-002",
+          "length": "118",
+          "volts": "230",
+          "watts": "1200",
+          "dia": "1/4"
+        },
+        {
+          "key": "118",
+          "product": "54-002",
+          "length": "118",
+          "volts": "230",
+          "watts": "1000",
+          "dia": "1/4"
+        },
+        {
+          "key": "120",
+          "product": "54-002",
+          "length": "120",
+          "volts": "230",
+          "watts": "1240",
+          "dia": "1/4"
+        },
+        {
+          "key": "120",
+          "product": "54-002",
+          "length": "120",
+          "volts": "115",
+          "watts": "400",
+          "dia": "1/4"
+        },
+        {
+          "key": "120",
+          "product": "54-002",
+          "length": "120",
+          "volts": "230",
+          "watts": "1450",
+          "dia": "5/16"
+        },
+        {
+          "key": "121",
+          "product": "54-002",
+          "length": "121",
+          "volts": "230",
+          "watts": "880",
+          "dia": "1/4"
+        },
+        {
+          "key": "121",
+          "product": "54-002",
+          "length": "121",
+          "volts": "115",
+          "watts": "240",
+          "dia": "1/4"
+        },
+        {
+          "key": "121",
+          "product": "54-002",
+          "length": "121",
+          "volts": "115",
+          "watts": "100",
+          "dia": "1/4"
+        },
+        {
+          "key": "123",
+          "product": "54-002",
+          "length": "123",
+          "volts": "230",
+          "watts": "500",
+          "dia": "1/4"
+        },
+        {
+          "key": "124",
+          "product": "54-002",
+          "length": "124",
+          "volts": "115",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "125",
+          "product": "54-002",
+          "length": "125",
+          "volts": "115",
+          "watts": "130",
+          "dia": "1/4"
+        },
+        {
+          "key": "125",
+          "product": "54-002",
+          "length": "125",
+          "volts": "115",
+          "watts": "310",
+          "dia": "1/4"
+        },
+        {
+          "key": "125",
+          "product": "54-002",
+          "length": "125",
+          "volts": "115",
+          "watts": "325",
+          "dia": "1/4"
+        },
+        {
+          "key": "125",
+          "product": "54-002",
+          "length": "125",
+          "volts": "230",
+          "watts": "2200",
+          "dia": "5/16"
+        },
+        {
+          "key": "127",
+          "product": "54-002",
+          "length": "127",
+          "volts": "230",
+          "watts": "2000",
+          "dia": "5/16"
+        },
+        {
+          "key": "127",
+          "product": "54-002",
+          "length": "127-5/8",
+          "volts": "240",
+          "watts": "3500",
+          "dia": "5/16"
+        },
+        {
+          "key": "128",
+          "product": "54-002",
+          "length": "128",
+          "volts": "115",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "129",
+          "product": "54-002",
+          "length": "129",
+          "volts": "115",
+          "watts": "325",
+          "dia": "1/4"
+        },
+        {
+          "key": "130",
+          "product": "54-002",
+          "length": "130",
+          "volts": "115",
+          "watts": "240",
+          "dia": "1/4"
+        },
+        {
+          "key": "130",
+          "product": "54-002",
+          "length": "130",
+          "volts": "230",
+          "watts": "950",
+          "dia": "1/4"
+        },
+        {
+          "key": "130",
+          "product": "54-002",
+          "length": "130",
+          "volts": "115",
+          "watts": "325",
+          "dia": "1/4"
+        },
+        {
+          "key": "131",
+          "product": "54-002",
+          "length": "131",
+          "volts": "230",
+          "watts": "2480",
+          "dia": "5/16"
+        },
+        {
+          "key": "132",
+          "product": "54-002",
+          "length": "132",
+          "volts": "230",
+          "watts": "2000",
+          "dia": "5/16"
+        },
+        {
+          "key": "132",
+          "product": "54-002",
+          "length": "132-1/2",
+          "volts": "115",
+          "watts": "900",
+          "dia": "1/4"
+        },
+        {
+          "key": "133",
+          "product": "54-002",
+          "length": "133",
+          "volts": "230",
+          "watts": "1000",
+          "dia": "1/4"
+        },
+        {
+          "key": "134",
+          "product": "54-002",
+          "length": "134",
+          "volts": "230",
+          "watts": "1800",
+          "dia": "1/4"
+        },
+        {
+          "key": "134",
+          "product": "54-002",
+          "length": "134",
+          "volts": "230",
+          "watts": "900",
+          "dia": "1/4"
+        },
+        {
+          "key": "135",
+          "product": "54-002",
+          "length": "135",
+          "volts": "230",
+          "watts": "550",
+          "dia": "1/4"
+        },
+        {
+          "key": "137",
+          "product": "54-002",
+          "length": "137",
+          "volts": "230",
+          "watts": "750",
+          "dia": "1/4"
+        },
+        {
+          "key": "137",
+          "product": "54-002",
+          "length": "137",
+          "volts": "115",
+          "watts": "519",
+          "dia": "1/4"
+        },
+        {
+          "key": "139",
+          "product": "54-002",
+          "length": "139",
+          "volts": "230",
+          "watts": "1100",
+          "dia": "1/4"
+        },
+        {
+          "key": "139",
+          "product": "54-002",
+          "length": "139",
+          "volts": "115",
+          "watts": "525",
+          "dia": "1/4"
+        },
+        {
+          "key": "139",
+          "product": "54-002",
+          "length": "139",
+          "volts": "115",
+          "watts": "250",
+          "dia": "1/4"
+        },
+        {
+          "key": "140",
+          "product": "54-002",
+          "length": "140",
+          "volts": "115",
+          "watts": "500",
+          "dia": "1/4"
+        },
+        {
+          "key": "141",
+          "product": "54-002",
+          "length": "141",
+          "volts": "230",
+          "watts": "400",
+          "dia": "1/4"
+        },
+        {
+          "key": "141",
+          "product": "54-002",
+          "length": "141",
+          "volts": "230",
+          "watts": "2750",
+          "dia": "1/4"
+        },
+        {
+          "key": "142",
+          "product": "54-002",
+          "length": "142",
+          "volts": "230",
+          "watts": "1385",
+          "dia": "5/16"
+        },
+        {
+          "key": "144",
+          "product": "54-002",
+          "length": "144-3/8",
+          "volts": "240",
+          "watts": "4000",
+          "dia": "5/16"
+        },
+        {
+          "key": "145",
+          "product": "54-002",
+          "length": "145",
+          "volts": "115",
+          "watts": "325",
+          "dia": "1/4"
+        },
+        {
+          "key": "146",
+          "product": "54-002",
+          "length": "146",
+          "volts": "230",
+          "watts": "750",
+          "dia": "1/4"
+        },
+        {
+          "key": "148",
+          "product": "54-002",
+          "length": "148",
+          "volts": "230",
+          "watts": "1600",
+          "dia": "1/4"
+        },
+        {
+          "key": "148",
+          "product": "54-002",
+          "length": "148",
+          "volts": "115",
+          "watts": "400",
+          "dia": "1/4"
+        },
+        {
+          "key": "149",
+          "product": "54-002",
+          "length": "149",
+          "volts": "115",
+          "watts": "2100",
+          "dia": "1/4"
+        },
+        {
+          "key": "149",
+          "product": "54-002",
+          "length": "149-1/2",
+          "volts": "115",
+          "watts": "800",
+          "dia": "1/4"
+        },
+        {
+          "key": "150",
+          "product": "54-002",
+          "length": "150",
+          "volts": "240",
+          "watts": "1350",
+          "dia": "1/4"
+        },
+        {
+          "key": "151",
+          "product": "54-002",
+          "length": "151",
+          "volts": "230",
+          "watts": "1800",
+          "dia": "5/16"
+        },
+        {
+          "key": "151",
+          "product": "54-002",
+          "length": "151",
+          "volts": "230",
+          "watts": "520",
+          "dia": "5/16"
+        },
+        {
+          "key": "156",
+          "product": "54-002",
+          "length": "156",
+          "volts": "115",
+          "watts": "400",
+          "dia": "1/4"
+        },
+        {
+          "key": "156",
+          "product": "54-002",
+          "length": "156",
+          "volts": "115",
+          "watts": "550",
+          "dia": "1/4"
+        },
+        {
+          "key": "156",
+          "product": "54-002",
+          "length": "156",
+          "volts": "115",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "157",
+          "product": "54-002",
+          "length": "157",
+          "volts": "230",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "157",
+          "product": "54-002",
+          "length": "157",
+          "volts": "230",
+          "watts": "2250",
+          "dia": "1/4"
+        },
+        {
+          "key": "158",
+          "product": "54-002",
+          "length": "158",
+          "volts": "115",
+          "watts": "150",
+          "dia": "1/4"
+        },
+        {
+          "key": "160",
+          "product": "54-002",
+          "length": "160",
+          "volts": "115",
+          "watts": "1000",
+          "dia": "1/4"
+        },
+        {
+          "key": "160",
+          "product": "54-002",
+          "length": "160",
+          "volts": "230",
+          "watts": "1800",
+          "dia": "5/16"
+        },
+        {
+          "key": "162",
+          "product": "54-002",
+          "length": "162",
+          "volts": "115",
+          "watts": "580",
+          "dia": "1/4"
+        },
+        {
+          "key": "163",
+          "product": "54-002",
+          "length": "163",
+          "volts": "115",
+          "watts": "300",
+          "dia": "1/4"
+        },
+        {
+          "key": "163",
+          "product": "54-002",
+          "length": "163",
+          "volts": "230",
+          "watts": "300",
+          "dia": "1/4"
+        },
+        {
+          "key": "164",
+          "product": "54-002",
+          "length": "164",
+          "volts": "115",
+          "watts": "2100",
+          "dia": "1/4"
+        },
+        {
+          "key": "166",
+          "product": "54-002",
+          "length": "166",
+          "volts": "115",
+          "watts": "580",
+          "dia": "1/4"
+        },
+        {
+          "key": "166",
+          "product": "54-002",
+          "length": "166-3/4",
+          "volts": "240",
+          "watts": "2000",
+          "dia": "1/4"
+        },
+        {
+          "key": "168",
+          "product": "54-002",
+          "length": "168",
+          "volts": "115",
+          "watts": "669",
+          "dia": "1/4"
+        },
+        {
+          "key": "168",
+          "product": "54-002",
+          "length": "168",
+          "volts": "230",
+          "watts": "800",
+          "dia": "1/4"
+        },
+        {
+          "key": "168",
+          "product": "54-002",
+          "length": "168",
+          "volts": "230",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "168",
+          "product": "54-002",
+          "length": "168",
+          "volts": "115",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "172",
+          "product": "54-002",
+          "length": "172",
+          "volts": "115",
+          "watts": "550",
+          "dia": "1/4"
+        },
+        {
+          "key": "172",
+          "product": "54-002",
+          "length": "172",
+          "volts": "115",
+          "watts": "800",
+          "dia": "1/4"
+        },
+        {
+          "key": "172",
+          "product": "54-002",
+          "length": "172",
+          "volts": "230",
+          "watts": "1280",
+          "dia": "1/4"
+        },
+        {
+          "key": "173",
+          "product": "54-002",
+          "length": "173",
+          "volts": "115",
+          "watts": "2400",
+          "dia": "1/4"
+        },
+        {
+          "key": "180",
+          "product": "54-002",
+          "length": "180",
+          "volts": "115",
+          "watts": "500",
+          "dia": "1/4"
+        },
+        {
+          "key": "181",
+          "product": "54-002",
+          "length": "181",
+          "volts": "230",
+          "watts": "1200",
+          "dia": "1/4"
+        },
+        {
+          "key": "182",
+          "product": "54-002",
+          "length": "182",
+          "volts": "230",
+          "watts": "800",
+          "dia": "1/4"
+        },
+        {
+          "key": "185",
+          "product": "54-002",
+          "length": "185",
+          "volts": "115",
+          "watts": "2400",
+          "dia": "1/4"
+        },
+        {
+          "key": "186",
+          "product": "54-002",
+          "length": "186",
+          "volts": "208",
+          "watts": "2000",
+          "dia": "5/16"
+        },
+        {
+          "key": "186",
+          "product": "54-002",
+          "length": "186",
+          "volts": "230",
+          "watts": "2200",
+          "dia": "1/4"
+        },
+        {
+          "key": "186",
+          "product": "54-002",
+          "length": "186",
+          "volts": "115",
+          "watts": "550",
+          "dia": "1/4"
+        },
+        {
+          "key": "187",
+          "product": "54-002",
+          "length": "187",
+          "volts": "115",
+          "watts": "590",
+          "dia": "1/4"
+        },
+        {
+          "key": "188",
+          "product": "54-002",
+          "length": "188",
+          "volts": "230",
+          "watts": "1250",
+          "dia": "1/4"
+        },
+        {
+          "key": "192",
+          "product": "54-002",
+          "length": "192",
+          "volts": "230",
+          "watts": "1100",
+          "dia": "1/4"
+        },
+        {
+          "key": "196",
+          "product": "54-002",
+          "length": "196",
+          "volts": "115",
+          "watts": "840",
+          "dia": "1/4"
+        },
+        {
+          "key": "198",
+          "product": "54-002",
+          "length": "198",
+          "volts": "115",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "204",
+          "product": "54-002",
+          "length": "204",
+          "volts": "115",
+          "watts": "600",
+          "dia": "1/4"
+        },
+        {
+          "key": "208",
+          "product": "54-002",
+          "length": "208",
+          "volts": "230",
+          "watts": "3538",
+          "dia": "5/16"
+        },
+        {
+          "key": "210",
+          "product": "54-002",
+          "length": "210",
+          "volts": "230",
+          "watts": "2435",
+          "dia": "1/4"
+        },
+        {
+          "key": "210",
+          "product": "54-002",
+          "length": "210",
+          "volts": "115",
+          "watts": "750",
+          "dia": "1/4"
+        },
+        {
+          "key": "212",
+          "product": "54-002",
+          "length": "212",
+          "volts": "115",
+          "watts": "625",
+          "dia": "1/4"
+        },
+        {
+          "key": "212",
+          "product": "54-002",
+          "length": "212",
+          "volts": "230",
+          "watts": "1500",
+          "dia": "1/4"
+        },
+        {
+          "key": "213",
+          "product": "54-002",
+          "length": "213",
+          "volts": "115",
+          "watts": "400",
+          "dia": "1/4"
+        },
+        {
+          "key": "216",
+          "product": "54-002",
+          "length": "216",
+          "volts": "220",
+          "watts": "1125",
+          "dia": "1/4"
+        },
+        {
+          "key": "219",
+          "product": "54-002",
+          "length": "219",
+          "volts": "230",
+          "watts": "1500",
+          "dia": "1/4"
+        },
+        {
+          "key": "220",
+          "product": "54-002",
+          "length": "220",
+          "volts": "230",
+          "watts": "1200",
+          "dia": "5/16"
+        },
+        {
+          "key": "223",
+          "product": "54-002",
+          "length": "223",
+          "volts": "230",
+          "watts": "1250",
+          "dia": "1/4"
+        },
+        {
+          "key": "226",
+          "product": "54-002",
+          "length": "226-1/2",
+          "volts": "230",
+          "watts": "850",
+          "dia": "1/4"
+        },
+        {
+          "key": "226",
+          "product": "54-002",
+          "length": "226-1/2",
+          "volts": "115",
+          "watts": "850",
+          "dia": "1/4"
+        },
+        {
+          "key": "227",
+          "product": "54-002",
+          "length": "227",
+          "volts": "115",
+          "watts": "625",
+          "dia": "1/4"
+        },
+        {
+          "key": "232",
+          "product": "54-002",
+          "length": "232",
+          "volts": "230",
+          "watts": "2850",
+          "dia": "5/16"
+        },
+        {
+          "key": "233",
+          "product": "54-002",
+          "length": "233",
+          "volts": "230",
+          "watts": "450",
+          "dia": "1/4"
+        },
+        {
+          "key": "233",
+          "product": "54-002",
+          "length": "233-3/4",
+          "volts": "115",
+          "watts": "700",
+          "dia": "1/4"
+        },
+        {
+          "key": "234",
+          "product": "54-002",
+          "length": "234",
+          "volts": "115",
+          "watts": "950",
+          "dia": "5/16"
+        },
+        {
+          "key": "234",
+          "product": "54-002",
+          "length": "234",
+          "volts": "115",
+          "watts": "950",
+          "dia": "1/4"
+        },
+        {
+          "key": "242",
+          "product": "54-002",
+          "length": "242",
+          "volts": "230",
+          "watts": "1000",
+          "dia": "1/4"
+        },
+        {
+          "key": "246",
+          "product": "54-002",
+          "length": "246",
+          "volts": "230",
+          "watts": "1000",
+          "dia": "1/4"
+        },
+        {
+          "key": "253",
+          "product": "54-002",
+          "length": "253",
+          "volts": "230",
+          "watts": "2750",
+          "dia": "5/16"
+        },
+        {
+          "key": "263",
+          "product": "54-002",
+          "length": "263",
+          "volts": "115",
+          "watts": "900",
+          "dia": "1/4"
+        },
+        {
+          "key": "264",
+          "product": "54-002",
+          "length": "264",
+          "volts": "115",
+          "watts": "900",
+          "dia": "1/4"
+        },
+        {
+          "key": "265",
+          "product": "54-002",
+          "length": "265",
+          "volts": "230",
+          "watts": "3300",
+          "dia": "5/16"
+        },
+        {
+          "key": "274",
+          "product": "54-002",
+          "length": "274",
+          "volts": "115",
+          "watts": "900",
+          "dia": "1/4"
+        },
+        {
+          "key": "275",
+          "product": "54-002",
+          "length": "275",
+          "volts": "208",
+          "watts": "3400",
+          "dia": "5/16"
+        },
+        {
+          "key": "283",
+          "product": "54-298",
+          "length": "283",
+          "volts": "230",
+          "watts": "1600",
+          "dia": "1/4"
+        },
+        {
+          "key": "296",
+          "product": "54-020",
+          "length": "296",
+          "volts": "115",
+          "watts": "560",
+          "dia": "1/4"
+        },
+        {
+          "key": "307",
+          "product": "54-040",
+          "length": "307",
+          "volts": "115",
+          "watts": "1050",
+          "dia": "1/4"
+        },
+        {
+          "key": "307",
+          "product": "21-011",
+          "length": "307",
+          "volts": "208",
+          "watts": "3600",
+          "dia": "5/16"
+        },
+        {
+          "key": "319",
+          "product": "21-008",
+          "length": "319",
+          "volts": "230",
+          "watts": "3500",
+          "dia": "5/16"
+        },
+        {
+          "key": "359",
+          "product": "54-041",
+          "length": "359",
+          "volts": "115",
+          "watts": "1200",
+          "dia": "1/4"
+        }
+      ]
+}
