@@ -15,7 +15,7 @@ class CustomItemServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'../config/custom-item.php',
+            __DIR__.'/../config/custom-item.php',
             'custom-item'
         );
 
@@ -44,9 +44,9 @@ class CustomItemServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'../resources/views', 'custom-item');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'custom-item');
 
-        $this->loadRoutesFrom(__DIR__.'../routes/web.php');
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
 
         $this->registerWidgets();
     }
