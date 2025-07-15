@@ -20,7 +20,7 @@ class CheckoutController extends BaseController
     /**
      * @return \Illuminate\Http\JsonResponse [type]
      */
-    public function getShippingOption(ShippingOptionRequest $request): JsonResponse
+    public function getShippingOption(Request $request): JsonResponse
     {
         $cart = getCart();
 
