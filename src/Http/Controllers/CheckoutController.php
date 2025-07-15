@@ -2,7 +2,6 @@
 
 namespace Amplify\System\CustomItem\Http\Controllers;
 
-use Amplify\System\CustomItem\Http\Controllers\ShippingOptionRequest;
 use Amplify\ErpApi\Facades\ErpApi;
 use Amplify\System\OrderRule\Facades\OrderRuleCheck;
 use App\Models\Cart;
@@ -199,6 +198,11 @@ class CheckoutController extends BaseController
         $hazmatCharge = (float) $request->input('hazmat_charge', 0);
 
         $totalAmount = $totalOrderValue + $salesTaxAmount + $freightAmount + $hazmatCharge;
+
+        if(config('amplify.basic.client_code') === 'STV') {
+            $totalAmount = $totalOrderValue + $freightAmount;
+            $totalOrderValue = (float) $request->input('sub_total', 0);
+        }
 
         return [
             'order_subtotal' => $totalOrderValue,
