@@ -153,6 +153,13 @@ class CheckoutController extends BaseController
 
                         $erp_order_data = $order_data;
                         $erp_order_data['order_type'] = 'O';
+
+                        if (config('amplify.basic.client_code') === 'STV') {
+                            $wtdoNote = $this->generateWTDONote($cart->cartItems, $customerDetails);
+                            if ($wtdoNote) {
+                                $erp_order_data['wtdo_note'] = $wtdoNote;
+                            }
+                        }
                         $apiResponse = $order->createOrderOrQuoteERP($erp_order_data);
                         if (! $apiResponse['success']) {
                             throw new \ErrorException('Order submission failed');
@@ -312,4 +319,59 @@ class CheckoutController extends BaseController
 
         return $shippingMethods;
     }
+
+    private function generateWTDONote($cartItems, $customerDetails): ?string
+    {
+        $defaultWarehouse = $customerDetails->defaultWarehouse ?? 'MAIN';
+        $publicWarehouses = ['COR1', 'ORE1', 'CEL1', 'MAIN'];
+
+        $items = [];
+        foreach ($cartItems as $product) {
+            $items[] = [
+                'item' => $product->product_code,
+                'qty' => (int) $product->quantity,
+            ];
+        }
+
+        $filters = [
+            'items' => $items,
+            'warehouse' => implode(',', $publicWarehouses),
+        ];
+
+        $availabilities = ErpApi::getProductPriceAvailability($filters);
+
+        $wtdoNotes = [];
+
+        foreach ($items as $item) {
+            $prodCode = $item['item'];
+            $orderedQty = $item['qty'];
+
+            $defaultQty = 0;
+            $otherStocks = [];
+
+            foreach ($availabilities as $availability) {
+                if ($availability->ItemNumber != $prodCode) continue;
+
+                $whse = $availability->WarehouseID;
+                $qtyAvail = (int) $availability->QuantityAvailable;
+
+                if ($whse === $defaultWarehouse) {
+                    $defaultQty = $qtyAvail;
+                } elseif (in_array($whse, $publicWarehouses)) {
+                    if ($qtyAvail > 0) {
+                        $otherStocks[] = "{$whse} Qty Avail: {$qtyAvail} for Part: {$prodCode}";
+                    }
+                }
+            }
+
+            if ($defaultQty < $orderedQty && count($otherStocks)) {
+                $note = implode("\n", $otherStocks);
+                $note .= "\n{$defaultWarehouse} Qty Avail: {$defaultQty} for Part: {$prodCode}";
+                $wtdoNotes[] = $note;
+            }
+        }
+
+        return count($wtdoNotes) ? implode(' | ', $wtdoNotes) : null;
+    }
+
 }
