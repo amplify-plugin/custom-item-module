@@ -2,7 +2,7 @@
 
 namespace Amplify\System\CustomItem\Http\Controllers;
 
-use Amplify\System\CustomItem\Http\Request\CuttingBoardAddToCartRequest;
+use Amplify\System\CustomItem\Http\Requests\CuttingBoardAddToCartRequest;
 use Amplify\System\CustomItem\Traits\CustomItemERPService;
 use App\Models\CustomProduct;
 use App\Models\Product;

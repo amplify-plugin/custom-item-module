@@ -3,7 +3,7 @@
 namespace Amplify\System\CustomItem\Http\Controllers;
 
 use Amplify\ErpApi\Facades\ErpApi;
-use Amplify\System\CustomItem\Http\Request\EvoporatorCoilRequest;
+use Amplify\System\CustomItem\Http\Requests\EvoporatorCoilRequest;
 use Amplify\System\Factories\NotificationFactory;
 use App\Http\Controllers\Controller;
 use App\Models\Country;

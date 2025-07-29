@@ -2,7 +2,7 @@
 
 namespace Amplify\System\CustomItem\Http\Controllers;
 
-use Amplify\System\CustomItem\Http\Request\GasketRequest;
+use Amplify\System\CustomItem\Http\Requests\GasketRequest;
 use Amplify\System\CustomItem\Http\Resources\ProductResource;
 use Amplify\System\CustomItem\Traits\CustomItemERPService;
 use App\Models\CustomProduct;

@@ -2,7 +2,7 @@
 
 namespace Amplify\System\CustomItem\Http\Controllers;
 
-use Amplify\System\CustomItem\Http\Request\TubularHeaterRequest;
+use Amplify\System\CustomItem\Http\Requests\TubularHeaterRequest;
 use Amplify\System\CustomItem\Traits\CustomItemERPService;
 use App\Models\CustomProduct;
 use App\Models\Product;
