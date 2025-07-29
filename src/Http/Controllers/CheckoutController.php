@@ -322,7 +322,7 @@ class CheckoutController extends BaseController
 
     private function generateWTDONote($cartItems, $customerDetails): ?string
     {
-        $defaultWarehouse = $customerDetails->defaultWarehouse ?? 'MAIN';
+        $defaultWarehouse = $customerDetails->DefaultWarehouse ?? 'MAIN';
         $publicWarehouses = ['COR1', 'ORE1', 'CEL1', 'MAIN'];
 
         $items = [];
