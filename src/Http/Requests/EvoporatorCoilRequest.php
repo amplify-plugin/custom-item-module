@@ -1,6 +1,6 @@
 <?php
 
-namespace Amplify\System\CustomItem\Http\Controllers;
+namespace Amplify\System\CustomItem\Http\Request;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -2,15 +2,14 @@
 
 namespace Amplify\System\CustomItem\Http\Controllers;
 
-use Amplify\System\CustomItem\Http\Controllers\CuttingBoardAddToCartRequest;
+use Amplify\System\CustomItem\Http\Request\CuttingBoardAddToCartRequest;
 use Amplify\System\CustomItem\Traits\CustomItemERPService;
-use App\Models\Cart;
 use App\Models\CustomProduct;
 use App\Models\Product;
-use DB;
 use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class CuttingBoardController extends BaseController
 {
