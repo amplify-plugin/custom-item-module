@@ -2,13 +2,11 @@
 
 namespace Amplify\System\CustomItem\Http\Controllers;
 
+use Amplify\System\CustomItem\Http\Requests\AddToOrderRequest;
 use Amplify\System\CustomItem\Partials\ShelvingProduct;
-use Amplify\System\CustomItem\Http\Controllers\AddToOrderRequest;
-use App\Models\Cart;
 use App\Models\Product;
-use DB;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
+use Illuminate\Support\Facades\DB;
 
 class ShelvingController extends BaseController
 {

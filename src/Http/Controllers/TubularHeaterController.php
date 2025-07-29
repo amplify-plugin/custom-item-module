@@ -2,13 +2,12 @@
 
 namespace Amplify\System\CustomItem\Http\Controllers;
 
-use Amplify\System\CustomItem\Http\Controllers\TubularHeaterRequest;
+use Amplify\System\CustomItem\Http\Requests\TubularHeaterRequest;
 use Amplify\System\CustomItem\Traits\CustomItemERPService;
-use App\Models\Cart;
 use App\Models\CustomProduct;
 use App\Models\Product;
-use DB;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class TubularHeaterController extends BaseController
 {

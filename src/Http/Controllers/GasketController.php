@@ -2,14 +2,13 @@
 
 namespace Amplify\System\CustomItem\Http\Controllers;
 
-use Amplify\System\CustomItem\Http\Controllers\GasketRequest;
+use Amplify\System\CustomItem\Http\Requests\GasketRequest;
 use Amplify\System\CustomItem\Http\Resources\ProductResource;
 use Amplify\System\CustomItem\Traits\CustomItemERPService;
-use App\Models\Cart;
 use App\Models\CustomProduct;
 use App\Models\Product;
-use DB;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class GasketController extends BaseController
 {
