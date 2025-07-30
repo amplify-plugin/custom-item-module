@@ -347,31 +347,34 @@ class CheckoutController extends BaseController
             $orderedQty = $item['qty'];
 
             $defaultQty = 0;
-            $otherStocks = [];
+            $totalQty = 0;
+            $noteLines = [];
 
             foreach ($availabilities as $availability) {
-                if ($availability->ItemNumber != $prodCode) continue;
+                if ($availability->ItemNumber !== $prodCode) continue;
 
                 $whse = $availability->WarehouseID;
                 $qtyAvail = (int) $availability->QuantityAvailable;
+              
+                if (!in_array($whse, $publicWarehouses) || $qtyAvail <= 0) {
+                    continue;
+                }
 
                 if ($whse === $defaultWarehouse) {
                     $defaultQty = $qtyAvail;
-                } elseif (in_array($whse, $publicWarehouses)) {
-                    if ($qtyAvail > 0) {
-                        $otherStocks[] = "{$whse} Qty Avail: {$qtyAvail} for Part: {$prodCode}";
-                    }
                 }
+
+                $totalQty += $qtyAvail;
+                $noteLines[] = "{$whse} Qty Avail: {$qtyAvail} for Part: {$prodCode}";
             }
 
-            if ($defaultQty < $orderedQty && count($otherStocks)) {
-                $note = implode("\n", $otherStocks);
-                $note .= "\n{$defaultWarehouse} Qty Avail: {$defaultQty} for Part: {$prodCode}";
-                $wtdoNotes[] = $note;
+            // Rule: Only generate WTDO if default does NOT have enough, but total does
+            if ($defaultQty < $orderedQty && $totalQty >= $orderedQty && count($noteLines)) {
+                $wtdoNotes[] = implode("\n", $noteLines);
             }
         }
 
-        return count($wtdoNotes) ? implode(' | ', $wtdoNotes) : null;
+        return count($wtdoNotes) ? implode("\n\n", $wtdoNotes) : null;
     }
 
 }
