@@ -86,7 +86,7 @@ class StripCurtainsBulkController extends BaseController
 
             return response()->json([
                 'cart_summary' => route('frontend.carts.index'),
-                'shop' => route('frontend.shop.index'),
+                'shop' => frontendShopURL(),
                 'message' => 'Success!',
             ]);
         } catch (Exception $e) {
