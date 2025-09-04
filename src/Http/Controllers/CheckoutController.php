@@ -187,7 +187,7 @@ class CheckoutController extends BaseController
         } catch (\Exception $exception) {
             $class = basename(get_class($exception));
 
-            Log::error("Create Order {$class} : ".$exception->getMessage());
+            Log::error("Create Order {$class} : ".$exception->getMessage().' in '.$exception->getFile().':'.$exception->getLine());
 
             $jsonResponse['success'] = false;
             $jsonResponse['message'] = $exception->getMessage();
