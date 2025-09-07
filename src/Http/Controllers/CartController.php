@@ -3,8 +3,8 @@
 namespace Amplify\System\CustomItem\Http\Controllers;
 
 use Amplify\ErpApi\Facades\ErpApi;
+use Amplify\System\Backend\Http\Requests\Orders\QuickOrderAddToOrderRequest;
 use Amplify\System\Factories\NotificationFactory;
-use App\Http\Requests\Orders\QuickOrderAddToOrderRequest;
 use App\Models\Event;
 use App\Models\Product;
 use Illuminate\Http\Request;
