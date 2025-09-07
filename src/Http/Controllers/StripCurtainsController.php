@@ -2,9 +2,8 @@
 
 namespace Amplify\System\CustomItem\Http\Controllers;
 
-use Amplify\System\CustomItem\Traits\CustomItemERPService;
 use Amplify\Frontend\Traits\HasDynamicPage;
-use App\Models\Cart;
+use Amplify\System\CustomItem\Traits\CustomItemERPService;
 use App\Models\CustomProduct;
 use App\Models\Product;
 use DB;
