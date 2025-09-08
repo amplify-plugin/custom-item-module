@@ -2,9 +2,8 @@
 
 namespace Amplify\System\CustomItem\Http\Controllers;
 
+use Amplify\System\Backend\Models\Product;
 use Amplify\System\CustomItem\Traits\CustomItemERPService;
-use App\Models\Cart;
-use App\Models\Product;
 use DB;
 use Illuminate\Http\Request;
 

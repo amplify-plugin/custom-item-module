@@ -4,9 +4,9 @@ namespace Amplify\System\CustomItem\Http\Controllers;
 
 use Amplify\ErpApi\Facades\ErpApi;
 use Amplify\System\Backend\Http\Requests\Orders\QuickOrderAddToOrderRequest;
+use Amplify\System\Backend\Models\Event;
+use Amplify\System\Backend\Models\Product;
 use Amplify\System\Factories\NotificationFactory;
-use App\Models\Event;
-use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 

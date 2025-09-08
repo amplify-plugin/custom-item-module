@@ -2,9 +2,9 @@
 
 namespace Amplify\System\CustomItem\Http\Controllers;
 
+use Amplify\System\Backend\Models\Product;
 use Amplify\System\CustomItem\Http\Requests\AddToOrderRequest;
 use Amplify\System\CustomItem\Partials\ShelvingProduct;
-use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 

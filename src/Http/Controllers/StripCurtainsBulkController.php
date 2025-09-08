@@ -3,9 +3,9 @@
 namespace Amplify\System\CustomItem\Http\Controllers;
 
 use Amplify\Frontend\Traits\HasDynamicPage;
+use Amplify\System\Backend\Models\CustomProduct;
+use Amplify\System\Backend\Models\Product;
 use Amplify\System\CustomItem\Traits\CustomItemERPService;
-use App\Models\CustomProduct;
-use App\Models\Product;
 use DB;
 use Exception;
 use Illuminate\Http\JsonResponse;

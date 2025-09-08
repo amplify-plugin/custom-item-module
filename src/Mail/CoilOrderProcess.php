@@ -2,7 +2,7 @@
 
 namespace Amplify\System\CustomItem\Mail;
 
-use App\Models\EventTemplate;
+use Amplify\System\Backend\Models\EventTemplate;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Address;

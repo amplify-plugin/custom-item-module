@@ -3,9 +3,9 @@
 namespace Amplify\System\CustomItem\Http\Controllers;
 
 use Amplify\ErpApi\Facades\ErpApi;
+use Amplify\System\Backend\Models\Event;
 use Amplify\System\Factories\NotificationFactory;
 use App\Http\Controllers\Controller;
-use App\Models\Event;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
