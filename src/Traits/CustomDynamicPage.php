@@ -49,6 +49,6 @@ trait CustomDynamicPage
 
         $content = $page->content;
 
-        return view(template_view('index'), compact('meta_data', 'content', 'pageTitle'))->render();
+        return view(theme_view('index'), compact('meta_data', 'content', 'pageTitle'))->render();
     }
 }
