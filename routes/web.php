@@ -1,5 +1,6 @@
 <?php
 
+use Amplify\System\Backend\Models\ModelCode;
 use Amplify\System\CustomItem\Http\Controllers\CartController;
 use Amplify\System\CustomItem\Http\Controllers\CheckoutController;
 use Amplify\System\CustomItem\Http\Controllers\CustomItemController;
@@ -8,6 +9,7 @@ use Amplify\System\CustomItem\Http\Controllers\DrainTubeHeaterController;
 use Amplify\System\CustomItem\Http\Controllers\EvaporatorCoilController;
 use Amplify\System\CustomItem\Http\Controllers\GasketController;
 use Amplify\System\CustomItem\Http\Controllers\HeaterWireController;
+use Amplify\System\CustomItem\Http\Controllers\ModelOrSerialNumberResearchController;
 use Amplify\System\CustomItem\Http\Controllers\ShelvingController;
 use Amplify\System\CustomItem\Http\Controllers\StripCurtainsBulkController;
 use Amplify\System\CustomItem\Http\Controllers\StripCurtainsCompletedController;
@@ -104,3 +106,14 @@ Route::get('/custom/{slug}/{product?}', [CustomItemController::class, 'index'])-
 Route::post('/add-to-cart', [CartController::class, 'addToCart'])->name('frontend.add-to-cart');
 
 Route::post('/create-order-from-quote', [CartController::class, 'createOrderFromQuote'])->name('frontend.create-order-from-quote');
+
+
+Route::post('model-serial-number-research', [ModelOrSerialNumberResearchController::class, 'store'])->name('model-serial-number-research.store');
+
+Route::get('/mode-codes-search', function (Request $request) {
+    return ModelCode::where('code', 'like', '%'.$request->get('search').'%')
+        ->orWhere('name', 'like', '%'.$request->get('search').'%')->get()->map(fn ($item) => [
+            'code' => $item->id,
+            'label' => $item->code,
+        ]);
+});
