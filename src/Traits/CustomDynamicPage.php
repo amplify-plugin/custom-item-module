@@ -15,8 +15,8 @@ trait CustomDynamicPage
      *
      * @throws \ErrorException
      *
-     * @see modules/Cms/Config/cms.php
-     * @see modules/Frontend/Config/frontend.php
+     * @see plugins/Cms/Config/cms.php
+     * @see plugins/Frontend/Config/frontend.php
      */
     public function loadPageBySlugandType($slug): void
     {
