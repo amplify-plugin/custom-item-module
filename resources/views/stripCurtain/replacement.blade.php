@@ -1,5 +1,5 @@
 @pushOnce('footer-script')
-<script src="{{asset("vendor/backend/js/backend.js")}}"></script>
+<script src="{{mix("js/backend.js", "vendor/backend")}}"></script>
 @endPushOnce
 
 <div id="app">
