@@ -32,7 +32,7 @@ class CheckoutController extends BaseController
 
         $shippingMethods = ErpApi::getShippingOption($inputs);
 
-        $clientCode = config('amplify.basic.client_code');
+        $clientCode = config('amplify.client_code');
 
         if ($clientCode === 'ACT' && is_array($shippingMethods) && ! empty($shippingMethods['FreightRate']['WILL CALL'])) {
             $shippingMethods = $this->getWillCallMethods([], $shippingMethods);
@@ -154,7 +154,7 @@ class CheckoutController extends BaseController
                         $erp_order_data = $order_data;
                         $erp_order_data['order_type'] = 'O';
 
-                        if (config('amplify.basic.client_code') === 'STV') {
+                        if (config('amplify.client_code') === 'STV') {
                             $wtdoNote = $this->generateWTDONote($cart->cartItems, $customerDetails);
                             if ($wtdoNote) {
                                 $erp_order_data['wtdo_note'] = $wtdoNote;
@@ -206,7 +206,7 @@ class CheckoutController extends BaseController
 
         $totalAmount = $totalOrderValue + $salesTaxAmount + $freightAmount + $hazmatCharge;
 
-        if(config('amplify.basic.client_code') === 'STV') {
+        if(config('amplify.client_code') === 'STV') {
             $totalAmount = $totalOrderValue + $freightAmount;
             $totalOrderValue = (float) $request->input('sub_total', 0);
         }
