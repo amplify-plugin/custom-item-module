@@ -162,7 +162,7 @@ class CheckoutController extends BaseController
                         }
                         $apiResponse = $order->createOrderOrQuoteERP($erp_order_data);
                         if (! $apiResponse['success']) {
-                            throw new \ErrorException('Order submission failed');
+                            throw new \ErrorException($apiResponse['message'] ?? 'Order submission failed');
                         }
                         $jsonResponse['redirect_to'] = $request->boolean('redirect_to_order_complete', false) ? URL::signedRoute('frontend.orders.completed', $order->id) : route('frontend.orders.index');
                         $jsonResponse['message'] = 'Order submitted successfully';
@@ -170,6 +170,23 @@ class CheckoutController extends BaseController
                             $jsonResponse['order_number'] = $apiResponse['order_id'];
                         }
                         break;
+
+                    case 'quotation' :
+                        $erp_order_data = $order_data;
+                        $erp_order_data['order_type'] = 'Q';
+
+                        $apiResponse = $order->createOrderOrQuoteERP($erp_order_data);
+
+                        if (! $apiResponse['success']) {
+                            throw new \ErrorException($apiResponse['message'] ?? 'Quotation submission failed');
+                        }
+                        $jsonResponse['redirect_to'] = $request->boolean('redirect_to_order_complete', false) ? URL::signedRoute('frontend.orders.completed', $order->id) : route('frontend.orders.index');
+                        $jsonResponse['message'] = 'Quotation submitted successfully';
+                        if (! empty($apiResponse['order_id'])) {
+                            $jsonResponse['order_number'] = $apiResponse['order_id'];
+                        }
+                        break;
+
                     default:
                         $jsonResponse['message'] = 'Something went wrong.';
                         $jsonResponse['redirect_to'] = null;
