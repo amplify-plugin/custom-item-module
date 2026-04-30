@@ -15,6 +15,7 @@ use Amplify\System\CustomItem\Http\Controllers\StripCurtainsBulkController;
 use Amplify\System\CustomItem\Http\Controllers\StripCurtainsCompletedController;
 use Amplify\System\CustomItem\Http\Controllers\StripCurtainsController;
 use Amplify\System\CustomItem\Http\Controllers\TubularHeaterController;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::group(['prefix' => 'api', 'as' => 'api.'], function () {
