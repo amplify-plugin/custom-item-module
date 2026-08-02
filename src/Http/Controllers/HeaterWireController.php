@@ -42,7 +42,7 @@ class HeaterWireController extends BaseController
     {
         DB::beginTransaction();
         try {
-            $cart = getOrCreateCart();
+            $cart = getCart();
             $dbProduct = Product::with('productImage')->whereProductCode($request->input('product'))->first();
             $warehouse = $this->getContactWarehouse();
             $product_code = $request->input('product');

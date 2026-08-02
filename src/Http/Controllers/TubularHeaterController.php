@@ -65,7 +65,7 @@ class TubularHeaterController extends BaseController
 
         DB::beginTransaction();
         try {
-            $cart = getOrCreateCart();
+            $cart = getCart();
             $dbProduct = Product::with('productImage')->whereProductCode($request->input('product'))->first();
             $product_code = $request->input('product');
             $warehouse = $this->getContactWarehouse();
