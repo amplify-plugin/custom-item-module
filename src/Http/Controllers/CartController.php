@@ -35,7 +35,7 @@ class CartController extends BaseController
             $is_added_to_cart = false;
             $erpProductDetails = $this->getERPInfo($request->products);
             $warehouses = ErpApi::getWarehouses();
-            $cart = getOrCreateCart();
+            $cart = getCart();
 
             foreach ($request->products as $product) {
                 $source_info = [];
